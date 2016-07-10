@@ -14,7 +14,7 @@ Then check the version `babel version` and make sure it is `>= 6.x`.
 In the **project root** (not `~`):
 
 ```
-npm install babel-preset-es2015
+npm install babel-preset-es2015 --save-dev
 echo '{ "presets": ["es2015"] }' > .babelrc
 ```
 
