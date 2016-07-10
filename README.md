@@ -21,7 +21,7 @@ echo '{ "presets": ["es2015"] }' > .babelrc
 Then 
 
 ```
-npm index.js | node
+babel index.js | node
 ```
 
 It will print:
